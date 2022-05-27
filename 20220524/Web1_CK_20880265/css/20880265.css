@@ -1,0 +1,68 @@
+/* body,
+html {
+    height: 100%;
+    margin: 0
+} */
+
+body {
+    background-image: url(../img/backgrounds/bg-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-primary {
+    color: #E6A756 !important;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: lighter
+}
+
+.bg-dark {
+    background-color: rgba(47, 23, 25) !important;
+    opacity: 0.9
+}
+
+a.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #E6A756 !important
+}
+
+.bg-faded {
+    background-color: rgba(255, 255, 255, 0.85)
+}
+
+.box-left {
+    position: absolute;
+    top: 3em;
+    left: 0;
+    width: 45%;
+}
+
+.intro-img {
+    width: 75%;
+}
+
+.bg-primary,
+.btn-primary {
+    background-color: #E6A756 !important;
+}
+
+.btn-primary {
+    border: none
+}
+
+.daokhuetu {
+    height: 500px
+}
+
+form {
+    border-color: #E6A756;
+    border-style: double;
+    border-radius: 10px
+}
